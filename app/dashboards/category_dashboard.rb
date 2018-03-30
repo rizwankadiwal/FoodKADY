@@ -22,6 +22,7 @@ class CategoryDashboard < Administrate::BaseDashboard
     category_image_file_size: Field::Number,
     category_image_updated_at: Field::DateTime,
     parent_id: Field::Number,
+    category_image: PaperclipField
   }.freeze
 
   # COLLECTION_ATTRIBUTES
@@ -39,37 +40,23 @@ class CategoryDashboard < Administrate::BaseDashboard
   # SHOW_PAGE_ATTRIBUTES
   # an array of attributes that will be displayed on the model's show page.
   SHOW_PAGE_ATTRIBUTES = [
-    :categories_products,
-    :products,
-    :parent,
-    :children,
-    :id,
-    :category_name,
-    :category_description,
-    :created_at,
-    :updated_at,
-    :category_image_file_name,
-    :category_image_content_type,
-    :category_image_file_size,
-    :category_image_updated_at,
-    :parent_id,
+      :category_name,
+      :category_description,
+      :parent,
+      :children,
+      :category_image,
+      :created_at,
+      :updated_at
   ].freeze
 
   # FORM_ATTRIBUTES
   # an array of attributes that will be displayed
   # on the model's form (`new` and `edit`) pages.
   FORM_ATTRIBUTES = [
-    :categories_products,
-    :products,
-    :parent,
-    :children,
-    :category_name,
-    :category_description,
-    :category_image_file_name,
-    :category_image_content_type,
-    :category_image_file_size,
-    :category_image_updated_at,
-    :parent_id,
+      :category_name,
+      :category_description,
+      :parent,
+      :category_image
   ].freeze
 
   # Overwrite this method to customize how categories are displayed

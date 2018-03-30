@@ -26,6 +26,7 @@ class ProductDashboard < Administrate::BaseDashboard
     product_image_content_type: Field::String,
     product_image_file_size: Field::Number,
     product_image_updated_at: Field::DateTime,
+    product_image:PaperclipField
   }.freeze
 
   # COLLECTION_ATTRIBUTES
@@ -43,51 +44,36 @@ class ProductDashboard < Administrate::BaseDashboard
   # SHOW_PAGE_ATTRIBUTES
   # an array of attributes that will be displayed on the model's show page.
   SHOW_PAGE_ATTRIBUTES = [
-    :categories_products,
-    :categories,
-    :id,
-    :product_name,
-    :sku,
-    :is_available,
-    :taxable_class,
-    :product_description,
-    :price,
-    :cost,
-    :notes,
-    :stock_quantity,
-    :created_at,
-    :updated_at,
-    :product_image_file_name,
-    :product_image_content_type,
-    :product_image_file_size,
-    :product_image_updated_at,
+      :product_name, :sku,
+      :categories,
+      :is_available, :taxable_class,
+      :price, :cost,
+      :notes,
+      :product_description,
+      :stock_quantity,
+      :product_image,
+      :created_at,
+      :updated_at
   ].freeze
 
   # FORM_ATTRIBUTES
   # an array of attributes that will be displayed
   # on the model's form (`new` and `edit`) pages.
   FORM_ATTRIBUTES = [
-    :categories_products,
-    :categories,
-    :product_name,
-    :sku,
-    :is_available,
-    :taxable_class,
-    :product_description,
-    :price,
-    :cost,
-    :notes,
-    :stock_quantity,
-    :product_image_file_name,
-    :product_image_content_type,
-    :product_image_file_size,
-    :product_image_updated_at,
+      :product_name, :sku,
+      :categories,
+      :is_available, :taxable_class,
+      :price, :cost,
+      :notes,
+      :product_description,
+      :stock_quantity,
+      :product_image,
   ].freeze
 
   # Overwrite this method to customize how products are displayed
   # across all pages of the admin dashboard.
   #
-  # def display_resource(product)
-  #   "Product ##{product.id}"
-  # end
+   def display_resource(product)
+     "Product #{product.product_name}"
+   end
 end
