@@ -40,6 +40,7 @@ It renders the `_table` partial to display details about the resources.
     ) %>
   <% end %>
 
+  <li><%= link_to "Logout", destroy_super_user_session_path, method: :delete%></li>
   <div>
     <%= link_to(
       t(

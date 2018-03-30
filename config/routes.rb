@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  devise_for :super_users
   namespace :admin do
     resources :categories_products
     resources :categories
