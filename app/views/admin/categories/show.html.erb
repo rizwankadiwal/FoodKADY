@@ -25,10 +25,19 @@ as well as a link to its edit page.
 
   <div>
     <%= link_to(
-      t("administrate.actions.edit_resource", name: page.page_title),
+      t("Edit", name: page.page_title),
       [:edit, namespace, page.resource],
       class: "button",
     ) if valid_action?(:edit) && show_action?(:edit, page.resource) %>
+  </div>
+  <div>
+    <%= link_to(
+            t("Destroy"),
+            [namespace, page.resource],
+            class: "button",
+            method: :delete,
+            data: { confirm: t("administrate.actions.confirm") }
+        ) if show_action? :destroy, page.resource %>
   </div>
 </header>
 
