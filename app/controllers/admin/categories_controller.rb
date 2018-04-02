@@ -10,6 +10,13 @@ module Admin
     #     per(10)
     # end
 
+    def index
+      @categories = Category.all
+      respond_to do |format|
+        format.html
+        format.csv { send_data @categories.to_csv, filename: "categories-#{Date.today}"}
+      end
+    end
     # Define a custom finder by overriding the `find_resource` method:
     # def find_resource(param)
     #   Category.find_by!(slug: param)
