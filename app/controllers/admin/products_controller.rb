@@ -4,7 +4,7 @@ module Admin
     # GET /products
     # GET /products.json
     def index
-      @products = Product.all
+      @products = Product.paginate(:page => params[:page], :per_page => 30)
       respond_to do |format|
         format.html
         format.csv { send_data @products.to_csv, filename: "products-#{Date.today}"}
