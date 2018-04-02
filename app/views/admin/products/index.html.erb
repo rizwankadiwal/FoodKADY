@@ -6,8 +6,8 @@
     <div class="col-lg-9 col-sm-8 col-md-8 col-xs-12">
       <%= link_to 'New Product', new_admin_product_path, :class => 'btn btn-danger pull-right m-l-20 btn-rounded btn-outline hidden-xs hidden-sm waves-effect waves-light' %>
       <ol class="breadcrumb">
-        < link_to 'Dashboard /', path>
-        <li class="active">Products</li>
+        <%= link_to 'Dashboard /', '/admin' %>
+        <%= link_to 'Products', admin_products_path, class:"active" %>
       </ol>
     </div>
   </div>

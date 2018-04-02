@@ -38,6 +38,10 @@ It displays a header, and renders the `_form` partial to do the heavy lifting.
             data: { confirm: t("administrate.actions.confirm") }
         ) if show_action? :destroy, page.resource %>
   </div>
+  <div>
+    <%= link_to 'Cancel', admin_products_path, class: "btn"%>
+  </div>
+
 </header>
 
 <section class="main-content__body">
