@@ -53,8 +53,7 @@ class ProductDashboard < Administrate::BaseDashboard
       :stock_quantity,
       :product_image,
       :created_at,
-      :updated_at,
-      :categories
+      :updated_at
   ].freeze
 
   # FORM_ATTRIBUTES
@@ -68,8 +67,7 @@ class ProductDashboard < Administrate::BaseDashboard
       :notes,
       :product_description,
       :stock_quantity,
-      :product_image,
-      :categories
+      :product_image
   ].freeze
 
   # Overwrite this method to customize how products are displayed

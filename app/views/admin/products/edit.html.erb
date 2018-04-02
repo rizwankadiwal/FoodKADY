@@ -26,15 +26,17 @@ It displays a header, and renders the `_form` partial to do the heavy lifting.
     <%= link_to(
       t("Show", name: page.page_title),
       [namespace, page.resource],
-      class: "button",
+      class: "btn",
     ) if valid_action?(:show) && show_action?(:show, page.resource) %>
   </div>
   <div>
     <%= link_to(
-            t("Destroy", name: page.page_title),
-            [:edit, namespace, page.resource],
-            class: "button",
-            ) if valid_action?(:edit) && show_action?(:edit, page.resource) %>
+            t("Destroy"),
+            [namespace, page.resource],
+            class: "btn",
+            method: :delete,
+            data: { confirm: t("administrate.actions.confirm") }
+        ) if show_action? :destroy, page.resource %>
   </div>
 </header>
 
