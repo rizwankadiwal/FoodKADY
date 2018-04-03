@@ -2,13 +2,133 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f96ffad4-e76d-4c9b-8c61-ed4d606453f1" name="Default" comment="Initial Commit">
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/views/application/index.html.erb" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/views/layouts/_footer.html.erb" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/views/layouts/_header.html.erb" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/views/layouts/_scripts.html.erb" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/assets/application/assets/css/animate.min.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/assets/application/assets/css/blue.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/assets/application/assets/css/bootstrap-select.min.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/assets/application/assets/css/bootstrap.min.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/assets/application/assets/css/font-awesome.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/assets/application/assets/css/images/close.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/assets/application/assets/css/images/delete.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/assets/application/assets/css/images/loading.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/assets/application/assets/css/images/next.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/assets/application/assets/css/images/prev.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/assets/application/assets/css/images/star-small.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/assets/application/assets/css/lightbox.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/assets/application/assets/css/main.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/assets/application/assets/css/owl.carousel.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/assets/application/assets/css/owl.transitions.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/assets/application/assets/css/rateit.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/assets/application/assets/fonts/FontAwesome.otf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/assets/application/assets/fonts/fontawesome-webfont.eot" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/assets/application/assets/fonts/fontawesome-webfont.svg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/assets/application/assets/fonts/fontawesome-webfont.ttf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/assets/application/assets/fonts/fontawesome-webfont.woff" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/assets/application/assets/fonts/fontawesome-webfont.woff2" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/assets/application/assets/fonts/glyphicons-halflings-regular.eot" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/assets/application/assets/fonts/glyphicons-halflings-regular.svg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/assets/application/assets/fonts/glyphicons-halflings-regular.ttf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/assets/application/assets/fonts/glyphicons-halflings-regular.woff" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/assets/application/assets/images/ajax.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/assets/application/assets/images/banners/LHS-banner.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/assets/application/assets/images/banners/banner-side.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/assets/application/assets/images/banners/cat-banner-1.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/assets/application/assets/images/banners/home-banner.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/assets/application/assets/images/banners/home-banner1.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/assets/application/assets/images/banners/home-banner2.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/assets/application/assets/images/banners/top-menu-banner.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/assets/application/assets/images/blank.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/assets/application/assets/images/blog-post/blog_big_01.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/assets/application/assets/images/blog-post/blog_big_02.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/assets/application/assets/images/blog-post/blog_big_03.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/assets/application/assets/images/blog-post/post1.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/assets/application/assets/images/blog-post/post2.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/assets/application/assets/images/brands/brand1.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/assets/application/assets/images/brands/brand2.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/assets/application/assets/images/brands/brand3.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/assets/application/assets/images/brands/brand4.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/assets/application/assets/images/brands/brand5.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/assets/application/assets/images/brands/brand6.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/assets/application/assets/images/cart.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/assets/application/assets/images/close.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/assets/application/assets/images/dot.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/assets/application/assets/images/grabbing.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/assets/application/assets/images/hot-deals/p1.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/assets/application/assets/images/hot-deals/p10.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/assets/application/assets/images/hot-deals/p25.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/assets/application/assets/images/hot-deals/p5.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/assets/application/assets/images/label.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/assets/application/assets/images/loading.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/assets/application/assets/images/logo.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/assets/application/assets/images/next.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/assets/application/assets/images/owl-carousel/AjaxLoader.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/assets/application/assets/images/owl-carousel/grabbing.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/assets/application/assets/images/payments/1.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/assets/application/assets/images/payments/2.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/assets/application/assets/images/payments/3.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/assets/application/assets/images/payments/4.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/assets/application/assets/images/payments/5.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/assets/application/assets/images/prev.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/assets/application/assets/images/products/p1.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/assets/application/assets/images/products/p10.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/assets/application/assets/images/products/p11.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/assets/application/assets/images/products/p12.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/assets/application/assets/images/products/p13.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/assets/application/assets/images/products/p14.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/assets/application/assets/images/products/p15.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/assets/application/assets/images/products/p16.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/assets/application/assets/images/products/p17.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/assets/application/assets/images/products/p18.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/assets/application/assets/images/products/p19.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/assets/application/assets/images/products/p2.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/assets/application/assets/images/products/p20.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/assets/application/assets/images/products/p21.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/assets/application/assets/images/products/p22.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/assets/application/assets/images/products/p23.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/assets/application/assets/images/products/p24.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/assets/application/assets/images/products/p25.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/assets/application/assets/images/products/p26.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/assets/application/assets/images/products/p27.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/assets/application/assets/images/products/p28.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/assets/application/assets/images/products/p29.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/assets/application/assets/images/products/p3.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/assets/application/assets/images/products/p30.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/assets/application/assets/images/products/p4.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/assets/application/assets/images/products/p5.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/assets/application/assets/images/products/p6.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/assets/application/assets/images/products/p7.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/assets/application/assets/images/products/p8.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/assets/application/assets/images/products/p9.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/assets/application/assets/images/sliders/01.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/assets/application/assets/images/sliders/02.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/assets/application/assets/images/star-big-on.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/assets/application/assets/images/star-off.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/assets/application/assets/images/star-on.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/assets/application/assets/images/testimonials/member1.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/assets/application/assets/images/testimonials/member2.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/assets/application/assets/images/testimonials/member3.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/assets/application/assets/images/testimonials/member4.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/assets/application/assets/js/bootstrap-hover-dropdown.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/assets/application/assets/js/bootstrap-select.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/assets/application/assets/js/bootstrap-slider.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/assets/application/assets/js/bootstrap.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/assets/application/assets/js/bootstrap.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/assets/application/assets/js/echo.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/assets/application/assets/js/jquery-1.11.1.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/assets/application/assets/js/jquery.easing-1.3.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/assets/application/assets/js/jquery.rateit.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/assets/application/assets/js/lightbox.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/assets/application/assets/js/owl.carousel.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/assets/application/assets/js/scripts.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/assets/application/assets/js/wow.min.js" />
+      <change beforePath="$PROJECT_DIR$/.idea/.rakeTasks" afterPath="$PROJECT_DIR$/.idea/.rakeTasks" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/app/controllers/admin/application_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/admin/application_controller.rb" />
-      <change beforePath="$PROJECT_DIR$/app/views/admin/products/index.html.erb" afterPath="$PROJECT_DIR$/app/views/admin/products/index.html.erb" />
-      <change beforePath="$PROJECT_DIR$/config/environments/development.rb" afterPath="$PROJECT_DIR$/config/environments/development.rb" />
+      <change beforePath="$PROJECT_DIR$/app/controllers/application_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/application_controller.rb" />
+      <change beforePath="$PROJECT_DIR$/app/views/layouts/application.html.erb" afterPath="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
       <change beforePath="$PROJECT_DIR$/config/routes.rb" afterPath="$PROJECT_DIR$/config/routes.rb" />
-      <change beforePath="$PROJECT_DIR$/db/schema.rb" afterPath="$PROJECT_DIR$/db/schema.rb" />
     </list>
     <ignored path="$PROJECT_DIR$/.bundle/" />
     <ignored path="$PROJECT_DIR$/components/" />
@@ -24,7 +144,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/FoodKADY@Development__FoodKADY.coverage" NAME="Development: FoodKADY Coverage Results" MODIFIED="1522438388996" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="FoodKADY" />
+    <SUITE FILE_PATH="coverage/FoodKADY@Development__FoodKADY.coverage" NAME="Development: FoodKADY Coverage Results" MODIFIED="1522725022575" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="FoodKADY" />
   </component>
   <component name="DatabaseView">
     <option name="SHOW_INTERMEDIATE" value="true" />
@@ -40,47 +160,76 @@
         <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
         <item name="Rails FoodKADY: development" type="feb32156:DbDataSourceImpl" />
       </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="Rails FoodKADY: development" type="feb32156:DbDataSourceImpl" />
-        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
-      </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="Rails FoodKADY: development" type="feb32156:DbDataSourceImpl" />
-        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="main: schema" type="90513b60:SqliteImplModel$Schema" />
-      </path>
     </expand>
     <select />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="product_dashboard.rb" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/dashboards/product_dashboard.rb">
+      <file leaf-file-name="index.html.erb" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/admin/products/index.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="940">
-              <caret line="78" column="3" lean-forward="false" selection-start-line="78" selection-start-column="3" selection-end-line="78" selection-end-column="3" />
+            <state relative-caret-position="540">
+              <caret line="36" column="13" lean-forward="false" selection-start-line="36" selection-start-column="13" selection-end-line="36" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="application.html.erb" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.erb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="521">
+              <caret line="35" column="14" lean-forward="false" selection-start-line="35" selection-start-column="14" selection-end-line="35" selection-end-column="14" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="application.html.erb" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/layouts/admin/application.html.erb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="618">
+              <caret line="75" column="0" lean-forward="true" selection-start-line="75" selection-start-column="0" selection-end-line="75" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="index.html.erb" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/views/admin/products/index.html.erb">
+        <entry file="file://$PROJECT_DIR$/app/views/application/index.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="42" column="59" lean-forward="false" selection-start-line="42" selection-start-column="59" selection-end-line="42" selection-end-column="59" />
-              <folding />
+            <state relative-caret-position="670">
+              <caret line="3737" column="27" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="3820" selection-end-column="6" />
+              <folding>
+                <element signature="e#2304#2309#0#HTML" expanded="true" />
+                <element signature="e#4878#4883#0#HTML" expanded="true" />
+                <element signature="e#7713#7718#0#HTML" expanded="true" />
+                <element signature="e#10154#10159#0#HTML" expanded="true" />
+                <element signature="e#12867#12872#0#HTML" expanded="true" />
+                <element signature="e#15320#15325#0#HTML" expanded="true" />
+                <element signature="e#53172#53177#0#HTML" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="e#147462#147468#0#HTML" expanded="true" />
+                <element signature="e#147469#147475#0#HTML" expanded="true" />
+                <element signature="e#148388#148394#0#HTML" expanded="true" />
+                <element signature="e#148395#148401#0#HTML" expanded="true" />
+                <element signature="e#149344#149350#0#HTML" expanded="true" />
+                <element signature="e#149351#149357#0#HTML" expanded="true" />
+                <element signature="e#150242#150248#0#HTML" expanded="true" />
+                <element signature="e#150249#150255#0#HTML" expanded="true" />
+                <element signature="e#151140#151146#0#HTML" expanded="true" />
+                <element signature="e#151147#151153#0#HTML" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="category_dashboard.rb" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/dashboards/category_dashboard.rb">
+      <file leaf-file-name="application_controller.rb" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/controllers/application_controller.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="521">
-              <caret line="60" column="0" lean-forward="false" selection-start-line="60" selection-start-column="0" selection-end-line="60" selection-end-column="0" />
+            <state relative-caret-position="90">
+              <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -89,8 +238,18 @@
       <file leaf-file-name="Gemfile" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Gemfile">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="565">
+            <state relative-caret-position="840">
               <caret line="56" column="18" lean-forward="false" selection-start-line="56" selection-start-column="18" selection-end-line="56" selection-end-column="18" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="routes.rb" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/config/routes.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="135">
+              <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -126,41 +285,14 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="routes.rb" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/config/routes.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="2" column="19" lean-forward="false" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="_index.html.erb" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/fields/paperclip_field/_index.html.erb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="12" lean-forward="false" selection-start-line="0" selection-start-column="12" selection-end-line="0" selection-end-column="12" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="_show.html.erb" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/fields/paperclip_field/_show.html.erb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="22" lean-forward="false" selection-start-line="0" selection-start-column="22" selection-end-line="0" selection-end-column="22" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
     </leaf>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
       <find>desc</find>
+      <find>assets/application/</find>
+      <find>echo</find>
+      <find>assets</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -182,6 +314,15 @@
         <option value="$PROJECT_DIR$/config/environments/development.rb" />
         <option value="$PROJECT_DIR$/app/controllers/admin/application_controller.rb" />
         <option value="$PROJECT_DIR$/app/views/admin/products/index.html.erb" />
+        <option value="$PROJECT_DIR$/app/controllers/application_controller.rb" />
+        <option value="$PROJECT_DIR$/config/routes.rb" />
+        <option value="$PROJECT_DIR$/app/views/layouts/_header.html.erb" />
+        <option value="$PROJECT_DIR$/app/views/application/index.html" />
+        <option value="$PROJECT_DIR$/app/views/layouts/_footer.html.erb" />
+        <option value="$PROJECT_DIR$/app/views/layouts/_scripts.html.erb" />
+        <option value="$PROJECT_DIR$/app/views/layouts/admin/application.html.erb" />
+        <option value="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
+        <option value="$PROJECT_DIR$/app/views/application/index.html.erb" />
       </list>
     </option>
   </component>
@@ -198,9 +339,10 @@
     <option name="FILTER_DEBUG" value="true" />
     <option name="CUSTOM_FILTER" />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds">
+    <option name="y" value="22" />
     <option name="width" value="1920" />
-    <option name="height" value="1200" />
+    <option name="height" value="1178" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -217,7 +359,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -234,25 +375,6 @@
               <item name="FoodKADY" type="b2602c69:ProjectViewProjectNode" />
               <item name="FoodKADY" type="462c0819:PsiDirectoryNode" />
               <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="controllers" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="FoodKADY" type="b2602c69:ProjectViewProjectNode" />
-              <item name="FoodKADY" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="controllers" type="462c0819:PsiDirectoryNode" />
-              <item name="admin" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="FoodKADY" type="b2602c69:ProjectViewProjectNode" />
-              <item name="FoodKADY" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="models" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="FoodKADY" type="b2602c69:ProjectViewProjectNode" />
-              <item name="FoodKADY" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
               <item name="views" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -260,26 +382,22 @@
               <item name="FoodKADY" type="462c0819:PsiDirectoryNode" />
               <item name="app" type="462c0819:PsiDirectoryNode" />
               <item name="views" type="462c0819:PsiDirectoryNode" />
-              <item name="admin" type="462c0819:PsiDirectoryNode" />
+              <item name="application" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="FoodKADY" type="b2602c69:ProjectViewProjectNode" />
               <item name="FoodKADY" type="462c0819:PsiDirectoryNode" />
               <item name="app" type="462c0819:PsiDirectoryNode" />
               <item name="views" type="462c0819:PsiDirectoryNode" />
+              <item name="layouts" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="FoodKADY" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FoodKADY" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+              <item name="layouts" type="462c0819:PsiDirectoryNode" />
               <item name="admin" type="462c0819:PsiDirectoryNode" />
-              <item name="products" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="FoodKADY" type="b2602c69:ProjectViewProjectNode" />
-              <item name="FoodKADY" type="462c0819:PsiDirectoryNode" />
-              <item name="config" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="FoodKADY" type="b2602c69:ProjectViewProjectNode" />
-              <item name="FoodKADY" type="462c0819:PsiDirectoryNode" />
-              <item name="config" type="462c0819:PsiDirectoryNode" />
-              <item name="environments" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="FoodKADY" type="b2602c69:ProjectViewProjectNode" />
@@ -297,14 +415,23 @@
               <item name="FoodKADY" type="462c0819:PsiDirectoryNode" />
               <item name="public" type="462c0819:PsiDirectoryNode" />
               <item name="assets" type="462c0819:PsiDirectoryNode" />
-              <item name="storage" type="462c0819:PsiDirectoryNode" />
+              <item name="application" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="FoodKADY" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FoodKADY" type="462c0819:PsiDirectoryNode" />
+              <item name="public" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
+              <item name="application" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="RailsProjectView" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -312,6 +439,13 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="com.intellij.database.dataSource.DataSourceTemplate" value="Sqlite (Xerial)" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/public/assets/application/assets/images" />
+      <recent name="$PROJECT_DIR$/public/assets/application" />
+      <recent name="$PROJECT_DIR$/app/views/application" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -443,6 +577,7 @@
       <updated>1522436012927</updated>
       <workItem from="1522436014156" duration="2793000" />
       <workItem from="1522443628987" duration="2107000" />
+      <workItem from="1522714161241" duration="3893000" />
     </task>
     <task id="LOCAL-00001" summary="Initial Commit">
       <created>1522436058192</created>
@@ -469,21 +604,21 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5662000" />
+    <option name="totallyTimeSpent" value="9555000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1920" height="1200" extended-state="6" />
+    <frame x="0" y="22" width="1920" height="1178" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25239617" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2550586" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32892415" sideWeight="0.5106496" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3282374" sideWeight="0.5149095" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32960597" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3291367" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3291367" sideWeight="0.49361023" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3291367" sideWeight="0.4914803" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32892415" sideWeight="0.48935038" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3282374" sideWeight="0.48509052" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -512,52 +647,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/views/admin/products/new.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#426#0#RHTML" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/admin/products/index.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="660">
-          <caret line="44" column="6" lean-forward="false" selection-start-line="44" selection-start-column="6" selection-end-line="44" selection-end-column="6" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/db/migrate/20180330190250_create_categories.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/db/migrate/20180330191430_add_attachment_product_image_to_products.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/db/migrate/20180330191444_add_attachment_category_image_to_categories.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/db/migrate/20180330192230_add_parent_id_to_category.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/db/schema.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -598,7 +687,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="6" lean-forward="false" selection-start-line="0" selection-start-column="6" selection-end-line="0" selection-end-column="6" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -606,9 +694,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#426#0#RHTML" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -624,7 +709,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
           <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -632,7 +716,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
           <caret line="4" column="12" lean-forward="false" selection-start-line="4" selection-start-column="12" selection-end-line="4" selection-end-column="12" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -680,7 +763,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -688,15 +770,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/routes.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="2" column="19" lean-forward="false" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -704,9 +777,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#426#0#RHTML" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -785,7 +855,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="6" lean-forward="false" selection-start-line="0" selection-start-column="6" selection-end-line="0" selection-end-column="6" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -793,9 +862,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#426#0#RHTML" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -803,7 +869,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
           <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -811,7 +876,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
           <caret line="4" column="12" lean-forward="false" selection-start-line="4" selection-start-column="12" selection-end-line="4" selection-end-column="12" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -833,7 +897,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/dashboards/product_dashboard.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="940">
+        <state relative-caret-position="1170">
           <caret line="78" column="3" lean-forward="false" selection-start-line="78" selection-start-column="3" selection-end-line="78" selection-end-column="3" />
           <folding />
         </state>
@@ -841,7 +905,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/dashboards/category_dashboard.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="521">
+        <state relative-caret-position="900">
           <caret line="60" column="0" lean-forward="false" selection-start-line="60" selection-start-column="0" selection-end-line="60" selection-end-column="0" />
           <folding />
         </state>
@@ -851,13 +915,12 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="624">
           <caret line="54" column="25" lean-forward="false" selection-start-line="54" selection-start-column="25" selection-end-line="54" selection-end-column="25" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Gemfile">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="565">
+        <state relative-caret-position="840">
           <caret line="56" column="18" lean-forward="false" selection-start-line="56" selection-start-column="18" selection-end-line="56" selection-end-column="18" />
           <folding />
         </state>
@@ -889,9 +952,101 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/admin/products/index.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="42" column="59" lean-forward="false" selection-start-line="42" selection-start-column="59" selection-end-line="42" selection-end-column="59" />
+        <state relative-caret-position="540">
+          <caret line="36" column="13" lean-forward="false" selection-start-line="36" selection-start-column="13" selection-end-line="36" selection-end-column="13" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/application_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/assets/application/assets/js/scripts.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1309">
+          <caret line="33" column="9" lean-forward="true" selection-start-line="33" selection-start-column="9" selection-end-line="33" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/routes.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/layouts/_header.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="6180">
+          <caret line="412" column="9" lean-forward="false" selection-start-line="412" selection-start-column="9" selection-end-line="412" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/layouts/_footer.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1905">
+          <caret line="127" column="9" lean-forward="false" selection-start-line="127" selection-start-column="9" selection-end-line="127" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/layouts/_scripts.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="58" lean-forward="false" selection-start-line="14" selection-start-column="58" selection-end-line="14" selection-end-column="58" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="521">
+          <caret line="35" column="14" lean-forward="false" selection-start-line="35" selection-start-column="14" selection-end-line="35" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/layouts/admin/application.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="618">
+          <caret line="75" column="0" lean-forward="true" selection-start-line="75" selection-start-column="0" selection-end-line="75" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/application/index.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="670">
+          <caret line="3737" column="27" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="3820" selection-end-column="6" />
+          <folding>
+            <element signature="e#2304#2309#0#HTML" expanded="true" />
+            <element signature="e#4878#4883#0#HTML" expanded="true" />
+            <element signature="e#7713#7718#0#HTML" expanded="true" />
+            <element signature="e#10154#10159#0#HTML" expanded="true" />
+            <element signature="e#12867#12872#0#HTML" expanded="true" />
+            <element signature="e#15320#15325#0#HTML" expanded="true" />
+            <element signature="e#53172#53177#0#HTML" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="e#147462#147468#0#HTML" expanded="true" />
+            <element signature="e#147469#147475#0#HTML" expanded="true" />
+            <element signature="e#148388#148394#0#HTML" expanded="true" />
+            <element signature="e#148395#148401#0#HTML" expanded="true" />
+            <element signature="e#149344#149350#0#HTML" expanded="true" />
+            <element signature="e#149351#149357#0#HTML" expanded="true" />
+            <element signature="e#150242#150248#0#HTML" expanded="true" />
+            <element signature="e#150249#150255#0#HTML" expanded="true" />
+            <element signature="e#151140#151146#0#HTML" expanded="true" />
+            <element signature="e#151147#151153#0#HTML" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
