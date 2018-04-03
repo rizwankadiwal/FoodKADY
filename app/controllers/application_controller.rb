@@ -4,4 +4,12 @@ class ApplicationController < ActionController::Base
   layout 'application/application'
   def index
   end
+
+  def after_sign_in_path_for(resource)
+    if resource.is_a?(SuperUser)
+      :admin_root
+    else
+      root_url
+    end
+  end
 end
