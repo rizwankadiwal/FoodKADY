@@ -16,6 +16,8 @@ module Admin
         format.html
         format.csv { send_data @categories.to_csv, filename: "categories-#{Date.today}"}
       end
+
+      @products = Product.all
     end
     # Define a custom finder by overriding the `find_resource` method:
     # def find_resource(param)

@@ -25,7 +25,7 @@ module Admin::CategoriesHelper
     html_code += link_to [:admin,category] do
       content_tag(:h4, category.category_name, class:'media-heading')
     end
-    html_code += content_tag(:p, "Products:" + category.products.count())
+    html_code += content_tag(:p, "Products:  #{category.products.count}")
   end
 
   def get_category(categories)
