@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f96ffad4-e76d-4c9b-8c61-ed4d606453f1" name="Default" comment="Initial Commit">
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/views/layouts/application/_signin_signup.html.erb" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/app/views/customers/registrations/new.html.erb" afterPath="$PROJECT_DIR$/app/views/customers/registrations/new.html.erb" />
-      <change beforePath="$PROJECT_DIR$/app/views/customers/sessions/new.html.erb" afterPath="$PROJECT_DIR$/app/views/customers/sessions/new.html.erb" />
+      <change beforePath="$PROJECT_DIR$/app/views/layouts/application/_header.html.erb" afterPath="$PROJECT_DIR$/app/views/layouts/application/_header.html.erb" />
     </list>
     <ignored path="$PROJECT_DIR$/.bundle/" />
     <ignored path="$PROJECT_DIR$/components/" />
@@ -22,6 +19,7 @@
   </component>
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/FoodKADY@Development__FoodKADY.coverage" NAME="Development: FoodKADY Coverage Results" MODIFIED="1522807612644" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="FoodKADY" />
+    <SUITE FILE_PATH="coverage/FoodKADY@Rails_console__FoodKADY.coverage" NAME="Rails console: FoodKADY Coverage Results" MODIFIED="1522825042833" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="FoodKADY" />
   </component>
   <component name="DatabaseView">
     <option name="SHOW_INTERMEDIATE" value="true" />
@@ -93,14 +91,33 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="_signin_signup.html.erb" pinned="false" current-in-tab="true">
+      <file leaf-file-name="_signin_signup.html.erb" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/layouts/application/_signin_signup.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" column="42" lean-forward="false" selection-start-line="4" selection-start-column="42" selection-end-line="4" selection-end-column="42" />
+            <state relative-caret-position="-245">
+              <caret line="4" column="42" lean-forward="false" selection-start-line="4" selection-start-column="12" selection-end-line="4" selection-end-column="42" />
               <folding>
                 <element signature="n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#!!top" expanded="false" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="_header.html.erb" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/layouts/application/_header.html.erb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="576">
+              <caret line="184" column="0" lean-forward="true" selection-start-line="184" selection-start-column="0" selection-end-line="184" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="categories" pinned="false" current-in-tab="true">
+        <entry file="das://table:/d115b09a/ad2a0f83-c1ff-446f-aa59-d396b23f900f/main.categories">
+          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+            <state>
+              <filtering enabled="true" />
             </state>
           </provider>
         </entry>
@@ -163,6 +180,7 @@
         <option value="$PROJECT_DIR$/app/views/customers/registrations/new.html.erb" />
         <option value="$PROJECT_DIR$/app/views/customers/sessions/new.html.erb" />
         <option value="$PROJECT_DIR$/app/views/layouts/application/_signin_signup.html.erb" />
+        <option value="$PROJECT_DIR$/app/views/layouts/application/_header.html.erb" />
       </list>
     </option>
   </component>
@@ -214,6 +232,12 @@
               <item name="Root" type="cbb8eebc:String" user="Root" />
               <item name="FoodKADY" type="cbb8eebc:String" user="FoodKADY" />
               <item name="app" type="cbb8eebc:String" user="app" />
+              <item name="controllers" type="cbb8eebc:String" user="controllers" />
+            </path>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="FoodKADY" type="cbb8eebc:String" user="FoodKADY" />
+              <item name="app" type="cbb8eebc:String" user="app" />
               <item name="views" type="cbb8eebc:String" user="views" />
             </path>
             <path>
@@ -228,40 +252,7 @@
               <item name="FoodKADY" type="cbb8eebc:String" user="FoodKADY" />
               <item name="app" type="cbb8eebc:String" user="app" />
               <item name="views" type="cbb8eebc:String" user="views" />
-              <item name="admin" type="cbb8eebc:String" user="admin" />
-              <item name="super_users" type="cbb8eebc:String" user="super_users" />
-            </path>
-            <path>
-              <item name="Root" type="cbb8eebc:String" user="Root" />
-              <item name="FoodKADY" type="cbb8eebc:String" user="FoodKADY" />
-              <item name="app" type="cbb8eebc:String" user="app" />
-              <item name="views" type="cbb8eebc:String" user="views" />
-              <item name="admin" type="cbb8eebc:String" user="admin" />
-              <item name="super_users" type="cbb8eebc:String" user="super_users" />
-              <item name="registrations" type="cbb8eebc:String" user="registrations" />
-            </path>
-            <path>
-              <item name="Root" type="cbb8eebc:String" user="Root" />
-              <item name="FoodKADY" type="cbb8eebc:String" user="FoodKADY" />
-              <item name="app" type="cbb8eebc:String" user="app" />
-              <item name="views" type="cbb8eebc:String" user="views" />
               <item name="customers" type="cbb8eebc:String" user="customers" />
-            </path>
-            <path>
-              <item name="Root" type="cbb8eebc:String" user="Root" />
-              <item name="FoodKADY" type="cbb8eebc:String" user="FoodKADY" />
-              <item name="app" type="cbb8eebc:String" user="app" />
-              <item name="views" type="cbb8eebc:String" user="views" />
-              <item name="customers" type="cbb8eebc:String" user="customers" />
-              <item name="registrations" type="cbb8eebc:String" user="registrations" />
-            </path>
-            <path>
-              <item name="Root" type="cbb8eebc:String" user="Root" />
-              <item name="FoodKADY" type="cbb8eebc:String" user="FoodKADY" />
-              <item name="app" type="cbb8eebc:String" user="app" />
-              <item name="views" type="cbb8eebc:String" user="views" />
-              <item name="customers" type="cbb8eebc:String" user="customers" />
-              <item name="sessions" type="cbb8eebc:String" user="sessions" />
             </path>
             <path>
               <item name="Root" type="cbb8eebc:String" user="Root" />
@@ -336,7 +327,26 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Rails.Development: FoodKADY">
+  <component name="RunManager" selected="IRB console.Rails console: FoodKADY">
+    <configuration name="Rails console: FoodKADY" type="IrbRunConfigurationType" factoryName="IRB console" temporary="true">
+      <module name="FoodKADY" />
+      <IRB_RUN_CONFIG NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
+      <IRB_RUN_CONFIG NAME="WORK DIR" VALUE="$MODULE_DIR$" />
+      <IRB_RUN_CONFIG NAME="SHOULD_USE_SDK" VALUE="false" />
+      <IRB_RUN_CONFIG NAME="ALTERN_SDK_NAME" VALUE="" />
+      <IRB_RUN_CONFIG NAME="myPassParentEnvs" VALUE="true" />
+      <envs />
+      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
+      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov">
+        <COVERAGE_PATTERN ENABLED="true">
+          <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
+        </COVERAGE_PATTERN>
+      </EXTENSION>
+      <IRB_RUN_CONFIG NAME="SCRIPT_PATH" VALUE="$MODULE_DIR$/bin/rails" />
+      <IRB_RUN_CONFIG NAME="SCRIPT_ARGS" VALUE="console development" />
+      <IRB_RUN_CONFIG NAME="IS_RAILS_CONSOLE" VALUE="true" />
+    </configuration>
     <configuration name="Development: FoodKADY" type="RailsRunConfigurationType" factoryName="Rails">
       <predefined_log_file id="RUBY_RAILS_SERVER" enabled="true" />
       <module name="FoodKADY" />
@@ -431,12 +441,18 @@
       <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_OPTION_DRYRUN" VALUE="false" />
       <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_OPTION_PREREQS" VALUE="false" />
     </configuration>
-    <list size="4">
+    <list size="5">
       <item index="0" class="java.lang.String" itemvalue="Rake.test: FoodKADY" />
       <item index="1" class="java.lang.String" itemvalue="Rake.spec: FoodKADY" />
       <item index="2" class="java.lang.String" itemvalue="Rails.Production: FoodKADY" />
       <item index="3" class="java.lang.String" itemvalue="Rails.Development: FoodKADY" />
+      <item index="4" class="java.lang.String" itemvalue="IRB console.Rails console: FoodKADY" />
     </list>
+    <recent_temporary>
+      <list size="1">
+        <item index="0" class="java.lang.String" itemvalue="IRB console.Rails console: FoodKADY" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
@@ -455,7 +471,7 @@
       <workItem from="1522436014156" duration="2793000" />
       <workItem from="1522443628987" duration="2107000" />
       <workItem from="1522799834401" duration="8183000" />
-      <workItem from="1522821545850" duration="2124000" />
+      <workItem from="1522821545850" duration="2801000" />
     </task>
     <task id="LOCAL-00001" summary="Initial Commit">
       <created>1522436058192</created>
@@ -489,7 +505,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="16618000" />
+    <option name="totallyTimeSpent" value="17295000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="22" width="1920" height="1178" extended-state="6" />
@@ -498,12 +514,12 @@
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14696486" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.34172663" sideWeight="0.51916933" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5628328" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.34172663" sideWeight="0.52129924" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.5628328" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3291367" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32266435" sideWeight="0.48935038" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32194245" sideWeight="0.48722044" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.34172663" sideWeight="0.48083067" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.34172663" sideWeight="0.47870076" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -533,13 +549,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/views/fields/paperclip_field/_index.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="12" lean-forward="false" selection-start-line="0" selection-start-column="12" selection-end-line="0" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/fields/paperclip_field/_show.html.erb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -810,13 +819,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="das://table:/d115b09a/ad2a0f83-c1ff-446f-aa59-d396b23f900f/main.categories">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/layouts/admin/application.html.erb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-479">
@@ -882,11 +884,26 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/layouts/application/_signin_signup.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="42" lean-forward="false" selection-start-line="4" selection-start-column="42" selection-end-line="4" selection-end-column="42" />
+        <state relative-caret-position="-245">
+          <caret line="4" column="42" lean-forward="false" selection-start-line="4" selection-start-column="12" selection-end-line="4" selection-end-column="42" />
           <folding>
             <element signature="n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#!!top" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/layouts/application/_header.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="576">
+          <caret line="184" column="0" lean-forward="true" selection-start-line="184" selection-start-column="0" selection-end-line="184" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://table:/d115b09a/ad2a0f83-c1ff-446f-aa59-d396b23f900f/main.categories">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
         </state>
       </provider>
     </entry>
