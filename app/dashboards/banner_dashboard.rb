@@ -19,7 +19,7 @@ class BannerDashboard < Administrate::BaseDashboard
     banner_image_content_type: Field::String,
     banner_image_file_size: Field::Number,
     banner_image_updated_at: Field::DateTime,
-    banner_image: PaperclipField
+    banner_link: Field::String,
   }.freeze
 
   # COLLECTION_ATTRIBUTES
@@ -48,6 +48,7 @@ class BannerDashboard < Administrate::BaseDashboard
     :banner_image_content_type,
     :banner_image_file_size,
     :banner_image_updated_at,
+    :banner_link,
   ].freeze
 
   # FORM_ATTRIBUTES
@@ -62,6 +63,7 @@ class BannerDashboard < Administrate::BaseDashboard
     :banner_image_content_type,
     :banner_image_file_size,
     :banner_image_updated_at,
+    :banner_link,
   ].freeze
 
   # Overwrite this method to customize how banners are displayed

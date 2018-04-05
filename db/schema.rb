@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20180405221821) do
+ActiveRecord::Schema.define(version: 20180405223024) do
 
   create_table "banners", force: :cascade do |t|
     t.string "slideshow_banner_title"
@@ -23,6 +23,7 @@ ActiveRecord::Schema.define(version: 20180405221821) do
     t.string "banner_image_content_type"
     t.integer "banner_image_file_size"
     t.datetime "banner_image_updated_at"
+    t.string "banner_link"
   end
 
   create_table "categories", force: :cascade do |t|
