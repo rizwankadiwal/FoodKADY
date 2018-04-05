@@ -6,7 +6,7 @@ Rails.application.routes.draw do
     resources :categories_products
     resources :categories
     resources :products
-
+    resources :banners
     root controller: :dashboard, action: :index
   end
 

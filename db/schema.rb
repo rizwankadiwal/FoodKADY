@@ -10,7 +10,16 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20180404053605) do
+ActiveRecord::Schema.define(version: 20180405064721) do
+
+  create_table "banners", force: :cascade do |t|
+    t.string "slideshow_banner_title"
+    t.string "slideshow_banner_subtitle"
+    t.string "long_banner_title"
+    t.string "long_banner_subtitle"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+  end
 
   create_table "categories", force: :cascade do |t|
     t.string "category_name"
