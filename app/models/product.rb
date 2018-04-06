@@ -7,7 +7,8 @@ class Product < ApplicationRecord
   validates :cost, numericality: { greater_than: 0 }, allow_nil: true
   validates :stock_quantity, numericality: { only_integer: true, greater_than_or_equal_to: 0 },
             allow_nil: true
-  has_attached_file :product_image, default_url: "/assets/storage/missing.png", :url => "/assets/storage/:basename.:extension"
+  has_attached_file :product_image,styles: { thumb: "240x270>"}, default_url: "/assets/storage/missing.png",
+                    :url => "/assets/storage/:basename.:extension"
   validates_attachment_content_type :product_image, content_type: /\Aimage\/.*\z/
 
   def self.to_csv
