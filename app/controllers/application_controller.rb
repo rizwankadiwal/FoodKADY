@@ -3,6 +3,7 @@ class ApplicationController < ActionController::Base
 
   layout 'application/application'
   def index
+    @banners = Banner.all
   end
 
   private

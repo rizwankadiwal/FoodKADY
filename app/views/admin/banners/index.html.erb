@@ -5,32 +5,34 @@
         <h4 class="page-title">Banner Slideshow</h4>
       </div>
       <div class="col-lg-9 col-sm-8 col-md-8 col-xs-12">
-        <a href="https://themeforest.net/item/elite-admin-responsive-dashboard-web-app-kit-/16750820" target="_blank" class="btn btn-danger pull-right m-l-20 btn-rounded btn-outline hidden-xs hidden-sm waves-effect waves-light">Buy Now</a>
+        <%= link_to 'New Slideshow', new_admin_banner_path, :class => 'btn btn-danger pull-right m-l-20 btn-rounded btn-outline hidden-xs hidden-sm waves-effect waves-light' %>
         <ol class="breadcrumb">
-          <li><a href="#">Dashboard</a></li>
-          <li class="active">Carousel</li>
+          <%= link_to 'Dashboard /', '/admin' %>
+          <%= link_to 'Slideshow', admin_banners_path, class:"active" %>
         </ol>
       </div>
     </div>
-    <div class="row">
-      <div class="col-md-12">
-        <div class="white-box">
-          <div class="row">
-            <% @banners.each do |banner|%>
-            <div class="col-md-12">
-              <div class="card card-inverse">
-                <%= image_tag banner.banner_image.url(:medium), class: 'card-img', alt: banner.slideshow_banner_title %>
-                <div class="card-img-overlay">
-                  <%= content_tag(:h4, banner.slideshow_banner_title, class:'box-title m-b-0')%>
+
+    <% @banners.each do |banner|%>
+
+      <div class="row">
+        <div class="col-md-12">
+          <div class="white-box">
+            <div class="row">
+              <div class="card">
+                <%=link_to [:admin,banner] do%>
+                  <%= image_tag banner.banner_image.url(:medium), class: 'card-img-top image-responsive', alt: banner.slideshow_banner_title %>
+                <%end%>
+                <div class="card-block">
+                  <%= content_tag(:h4, banner.slideshow_banner_title, class:'card-title')%>
                   <% if !banner.slideshow_banner_subtitle.empty? %>
-                    <%= content_tag(:p, banner.slideshow_banner_subtitle, class:'box-title m-b-0')%>
+                    <%= content_tag(:p, banner.slideshow_banner_subtitle, class:'card-text')%>
                   <%end%>
                 </div>
               </div>
             </div>
-            <%end%>
           </div>
         </div>
       </div>
-    </div>
+    <%end%>
   </div>
