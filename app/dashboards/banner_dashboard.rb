@@ -11,8 +11,6 @@ class BannerDashboard < Administrate::BaseDashboard
     id: Field::Number,
     slideshow_banner_title: Field::String,
     slideshow_banner_subtitle: Field::String,
-    long_banner_title: Field::String,
-    long_banner_subtitle: Field::String,
     created_at: Field::DateTime,
     updated_at: Field::DateTime,
     banner_image_file_name: Field::String,
@@ -20,6 +18,7 @@ class BannerDashboard < Administrate::BaseDashboard
     banner_image_file_size: Field::Number,
     banner_image_updated_at: Field::DateTime,
     banner_link: Field::String,
+    banner_image: PaperclipField
   }.freeze
 
   # COLLECTION_ATTRIBUTES
@@ -31,7 +30,6 @@ class BannerDashboard < Administrate::BaseDashboard
     :id,
     :slideshow_banner_title,
     :slideshow_banner_subtitle,
-    :long_banner_title,
   ].freeze
 
   # SHOW_PAGE_ATTRIBUTES
@@ -40,8 +38,6 @@ class BannerDashboard < Administrate::BaseDashboard
     :id,
     :slideshow_banner_title,
     :slideshow_banner_subtitle,
-    :long_banner_title,
-    :long_banner_subtitle,
     :created_at,
     :updated_at,
     :banner_image_file_name,
@@ -49,6 +45,7 @@ class BannerDashboard < Administrate::BaseDashboard
     :banner_image_file_size,
     :banner_image_updated_at,
     :banner_link,
+    :banner_image
   ].freeze
 
   # FORM_ATTRIBUTES
@@ -57,13 +54,8 @@ class BannerDashboard < Administrate::BaseDashboard
   FORM_ATTRIBUTES = [
     :slideshow_banner_title,
     :slideshow_banner_subtitle,
-    :long_banner_title,
-    :long_banner_subtitle,
-    :banner_image_file_name,
-    :banner_image_content_type,
-    :banner_image_file_size,
-    :banner_image_updated_at,
     :banner_link,
+    :banner_image
   ].freeze
 
   # Overwrite this method to customize how banners are displayed

@@ -1,0 +1,36 @@
+
+  <div class="container-fluid">
+    <div class="row bg-title">
+      <div class="col-lg-3 col-md-4 col-sm-4 col-xs-12">
+        <h4 class="page-title">Banner Slideshow</h4>
+      </div>
+      <div class="col-lg-9 col-sm-8 col-md-8 col-xs-12">
+        <a href="https://themeforest.net/item/elite-admin-responsive-dashboard-web-app-kit-/16750820" target="_blank" class="btn btn-danger pull-right m-l-20 btn-rounded btn-outline hidden-xs hidden-sm waves-effect waves-light">Buy Now</a>
+        <ol class="breadcrumb">
+          <li><a href="#">Dashboard</a></li>
+          <li class="active">Carousel</li>
+        </ol>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-12">
+        <div class="white-box">
+          <div class="row">
+            <% @banners.each do |banner|%>
+            <div class="col-md-12">
+              <div class="card card-inverse">
+                <%= image_tag banner.banner_image.url(:medium), class: 'card-img', alt: banner.slideshow_banner_title %>
+                <div class="card-img-overlay">
+                  <%= content_tag(:h4, banner.slideshow_banner_title, class:'box-title m-b-0')%>
+                  <% if !banner.slideshow_banner_subtitle.empty? %>
+                    <%= content_tag(:p, banner.slideshow_banner_subtitle, class:'box-title m-b-0')%>
+                  <%end%>
+                </div>
+              </div>
+            </div>
+            <%end%>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
