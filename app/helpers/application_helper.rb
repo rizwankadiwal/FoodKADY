@@ -15,7 +15,7 @@ module ApplicationHelper
   def print_header_category(category)
     html_code = ''
     html_code += '<li class="dropdown yamm mega-menu">'
-    html_code += link_to category.category_name, '#',
+    html_code += link_to category.category_name, category_path,
         {class: 'dropdown-toggle',
          'data-hover'=> 'dropdown',
          'data-toggle'=>'dropdown'
