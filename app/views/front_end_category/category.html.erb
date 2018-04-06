@@ -3,6 +3,21 @@
     <%= render partial: 'layouts/application/filterSidebar'%>
     <div class="col-md-9">
 
+      <div id="category" class="category-carousel hidden-xs">
+        <div class="item">
+          <div class="image">
+            <img src="assets/storage/banner/vegetables.jpg" alt="Category Banner" class="img-responsive">
+          </div>
+          <div class="container-fluid">
+            <div class="caption vertical-top text-left">
+              <div class="big-text">
+                <%= @cat.category_name%>
+              </div>
+            </div><!-- /.caption -->
+          </div><!-- /.container-fluid -->
+        </div>
+      </div>
+
       <div class="clearfix filters-container m-t-10">
         <div class="row">
           <div class="col col-sm-6 col-md-2">
