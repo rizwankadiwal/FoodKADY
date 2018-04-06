@@ -5,8 +5,7 @@ class FrontEndCategoryController < ApplicationController
       @products = Product.joins(:categories).where(
           categories: { id: params[:category] }
       ).all.paginate(page: params[:page], per_page: 20)
-
-      @cat = Category.first(params[:category])
+      @cat = Category.find(params[:category])
     else
       redirect_to root_url
     end

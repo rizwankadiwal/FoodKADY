@@ -1753,7 +1753,6 @@ header{background:#333333}
   line-height: 28px;
 }
 .sidebar .sidebar-module-container .sidebar-widget .sidebar-widget-body .accordion .accordion-group .accordion-heading .accordion-toggle:after {
-  content:"\f068";
   float: right;
   font-family: fontawesome;
 }
@@ -1762,7 +1761,6 @@ header{background:#333333}
 }
 .sidebar .sidebar-module-container .sidebar-widget .sidebar-widget-body .accordion .accordion-group .accordion-heading .accordion-toggle.collapsed:after {
   color: #636363;
-  content: "\f067";
   font-family: fontawesome;
   font-weight:normal
 }

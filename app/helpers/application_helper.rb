@@ -50,6 +50,8 @@ module ApplicationHelper
 
   #Header Navigation End
 
+
+
   #Sidebar Navigation Start
 
 
@@ -92,6 +94,36 @@ module ApplicationHelper
         html_code += '</div></li></ul>'
       end
       html_code += '</li>'
+    end
+    html_code.html_safe
+  end
+
+  #Sidebar Nivigation End
+
+
+  #Filter list Sidebar
+
+
+  def get_sidebar_filter_categories(categories)
+    html_code = ''
+    if !categories.children.empty?
+
+      html_code += '<div class="sidebar-module-container">
+                      <div class="sidebar-filter">
+                        <div class="sidebar-widget outer-bottom-small wow fadeInUp animated">
+                          <h3 class="section-title">shop by</h3>
+                            <div class="widget-header">
+                                <h4 class="widget-title">Category</h4>
+                            </div>
+                            <div class="sidebar-widget-body">
+                              <div class="accordion">'
+      categories.children.each do |category|
+        html_code += '<div class="accordion-group">
+            <div class="accordion-heading">'
+        html_code += link_to category.category_name, category_path(category: category.id), {class: 'accordion-toggle collapsed'}
+        html_code += '</div></div>'
+      end
+      html_code += '</div></div></div></div></div>'
     end
     html_code.html_safe
   end
