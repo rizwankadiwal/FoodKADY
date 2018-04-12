@@ -1,0 +1,113 @@
+<div class="container">
+  <div class="row">
+    <%= render partial: 'layouts/application/sidebar'%>
+    <div class="col-md-9">
+
+      <div id="category" class="category-carousel hidden-xs">
+        <div class="item">
+          <div class="image">
+            <img src="assets/storage/banner/vegetables.jpg" alt="Category Banner" class="img-responsive">
+          </div>
+          <div class="container-fluid">
+            <div class="caption vertical-top text-left">
+              <div class="big-text">
+                <%= @search_terms%>
+              </div>
+            </div><!-- /.caption -->
+          </div><!-- /.container-fluid -->
+        </div>
+      </div>
+
+      <div class="clearfix filters-container m-t-10">
+        <div class="row">
+          <div class="col col-sm-6 col-md-2">
+
+          </div><!-- /.col -->
+          <div class="col col-sm-12 col-md-6">
+
+          </div><!-- /.col -->
+          <div class="col col-sm-6 col-md-4 text-right">
+            <div class="pagination-container">
+              <ul class="list-inline list-unstyled">
+                <li class="prev"><a href="#"><i class="fa fa-angle-left"></i></a></li>
+                <li><a href="#">1</a></li>
+                <li class="active"><a href="#">2</a></li>
+                <li><a href="#">3</a></li>
+                <li><a href="#">4</a></li>
+                <li class="next"><a href="#"><i class="fa fa-angle-right"></i></a></li>
+              </ul><!-- /.list-inline -->
+            </div><!-- /.pagination-container -->		</div><!-- /.col -->
+        </div><!-- /.row -->
+      </div>
+      <div class="search-result-container ">
+        <div id="myTabContent" class="tab-content category-list">
+          <div class="tab-pane active " id="grid-container">
+            <div class="category-product">
+              <div class="row">
+                <% @products.each do |product|%>
+                  <div class="col-sm-6 col-md-4 wow fadeInUp animated" style="visibility: visible; animation-name: fadeInUp;">
+                    <div class="products">
+
+                      <div class="product">
+                        <div class="product-image">
+                          <div class="image">
+                            <%= link_to '#' do%>
+                              <%= image_tag product.product_image.url(:thumb), alt: product.product_name%>
+                            <%end%>
+                          </div><!-- /.image -->
+                        </div><!-- /.product-image -->
+                        <div class="product-info text-left">
+                          <%= link_to '#' do%>
+                            <%= content_tag(:h3, product.product_name, class: 'name')%>
+                          <%end%>
+                          <div class="description"></div>
+
+                          <div class="product-price">
+                            <span class="price">$<%= product.price%></span>
+                          </div><!-- /.product-price -->
+
+                        </div><!-- /.product-info -->
+                        <div class="cart clearfix animate-effect">
+                          <div class="action">
+                            <ul class="list-unstyled">
+                              <li class="add-cart-button btn-group">
+                                <button class="btn btn-primary icon" data-toggle="dropdown" type="button">
+                                  <i class="fa fa-shopping-cart"></i>
+                                </button>
+                                <button class="btn btn-primary cart-btn" type="button">Add to cart</button>
+                              </li>
+                            </ul>
+                          </div><!-- /.action -->
+                        </div><!-- /.cart -->
+                      </div><!-- /.product -->
+
+                    </div><!-- /.products -->
+                  </div><!-- /.item -->
+                <%end%>
+              </div><!-- /.row -->
+            </div><!-- /.category-product -->
+
+          </div><!-- /.tab-pane -->
+
+        </div><!-- /.tab-content -->
+        <div class="clearfix filters-container">
+
+          <div class="text-right">
+            <div class="pagination-container">
+              <ul class="list-inline list-unstyled">
+                <li class="prev"><a href="#"><i class="fa fa-angle-left"></i></a></li>
+                <li><a href="#">1</a></li>
+                <li class="active"><a href="#">2</a></li>
+                <li><a href="#">3</a></li>
+                <li><a href="#">4</a></li>
+                <li class="next"><a href="#"><i class="fa fa-angle-right"></i></a></li>
+              </ul><!-- /.list-inline -->
+            </div><!-- /.pagination-container -->						    </div><!-- /.text-right -->
+
+        </div><!-- /.filters-container -->
+
+      </div><!-- /.search-result-container -->
+
+    </div>
+  </div>
+</div>
