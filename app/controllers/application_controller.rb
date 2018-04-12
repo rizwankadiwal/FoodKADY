@@ -4,6 +4,7 @@ class ApplicationController < ActionController::Base
   layout 'application/application'
   def index
     @banners = Banner.all
+    @products_hotdeal = Product.where(:hotdeal => true).limit(6)
   end
 
   private

@@ -4,19 +4,10 @@ module Admin
     # GET /products
     # GET /products.json
     def index
-      if params[:category]
-        @products = Product.where(category: params[:category]).paginate(page: params[:page], per_page: 20)
-        if @products.empty?
-          flash[:error] = "There are #{@products.count} in this category".html_safe
-        else
-          flash[:notice] = "There are #{@products.count} in this category".html_safe
-        end
-      else
-        @products = Product.paginate(:page => params[:page], :per_page => 30)
-        respond_to do |format|
-          format.html
-          format.csv { send_data @products.to_csv, filename: "products-#{Date.today}"}
-        end
+      @products = Product.paginate(:page => params[:page], :per_page => 30)
+      respond_to do |format|
+        format.html
+        format.csv { send_data @products.to_csv, filename: "products-#{Date.today}"}
       end
     end
 
@@ -32,7 +23,7 @@ module Admin
       params.require(:product).permit(:product_name, :sku, :is_available,
                                       :taxable_class, :description, :price,
                                       :cost, :notes, :product_image, :stock_quantity,
-                                      category_ids: [])
+                                      :sale_price, :hotdeal, category_ids: [])
     end
   end
 end

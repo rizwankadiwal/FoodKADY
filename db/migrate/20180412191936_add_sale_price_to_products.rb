@@ -1,5 +1,5 @@
 class AddSalePriceToProducts < ActiveRecord::Migration[5.1]
   def change
-    add_column :products, :sale_price, :boolean
+    add_column :products, :sale_price, :decimal
   end
 end
