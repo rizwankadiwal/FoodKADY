@@ -5,6 +5,17 @@ class ApplicationController < ActionController::Base
   def index
     @banners = Banner.all
     @products_hotdeal = Product.where(:hotdeal => true).limit(6)
+    @new_products = Product.order('created_at DESC').limit(8)
+
+    @fruits_vegetables_products = Product.joins(:categories).where(
+        categories: { category_name: 'FRUITS & VEGETABLES' })
+    @fruits_products = Product.joins(:categories).where(
+        categories: { category_name: 'FRUITS' })
+    @vegetables_products = Product.joins(:categories).where(
+        categories: { category_name: 'VEGETABLES' })
+    @salad_products = Product.joins(:categories).where(
+        categories: { category_name: 'SALAD' })
+
   end
 
   private
