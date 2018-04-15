@@ -7,15 +7,38 @@ class ApplicationController < ActionController::Base
     @products_hotdeal = Product.where(:hotdeal => true).limit(6)
     @new_products = Product.order('created_at DESC').limit(8)
 
+    #fruits vegetable block
     @fruits_vegetables_products = Product.joins(:categories).where(
-        categories: { category_name: 'FRUITS & VEGETABLES' })
+        categories: { category_name: 'FRUITS & VEGETABLES' }).limit(8)
     @fruits_products = Product.joins(:categories).where(
-        categories: { category_name: 'FRUITS' })
+        categories: { category_name: 'FRUITS' }).limit(8)
     @vegetables_products = Product.joins(:categories).where(
-        categories: { category_name: 'VEGETABLES' })
+        categories: { category_name: 'VEGETABLES' }).limit(8)
     @salad_products = Product.joins(:categories).where(
-        categories: { category_name: 'SALAD' })
+        categories: { category_name: 'SALAD' }).limit(8)
 
+    #dairy block
+    @dairy_products = Product.joins(:categories).where(
+        categories: { category_name: 'DAIRY' }).limit(8)
+
+    #pantry block
+    @pantry_products = Product.joins(:categories).where(
+        categories: { category_name: 'PANTRY' }).limit(8)
+
+    #sale_product block
+    @sale_products = Product.where("sale_price is not null").limit(8)
+  end
+
+  #category page
+  def category
+    if params[:category]
+      @products = Product.joins(:categories).where(
+          categories: { id: params[:category] }
+      ).all.paginate(page: params[:page], per_page: 20)
+      @cat = Category.find(params[:category])
+    else
+      redirect_to root_url
+    end
   end
 
   private

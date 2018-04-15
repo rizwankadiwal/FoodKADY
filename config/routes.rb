@@ -11,6 +11,7 @@ Rails.application.routes.draw do
   end
 
   root controller: :application, action: :index
-  get 'category', to: 'front_end_category#category', as: 'category'
+  get 'category', to: 'application#category', as: 'category'
+  get 'product', to: 'application#product', as: 'product'
   get 'search', to: 'search#search', as: 'search'
 end
