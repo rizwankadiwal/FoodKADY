@@ -77,9 +77,9 @@
                 <div class="product">
                   <div class="product-image">
                     <div class="image">
-                      <a href="detail.html">
+                      <%= link_to product_path(product: new_product.id) do%>
                         <%= image_tag new_product.product_image.url(:thumb), alt: new_product.product_name%>
-                      </a>
+                      <%end%>
                     </div><!-- /.image -->
                     <% if new_product.hotdeal == true %>
                       <div class="tag hot"><span>hot</span></div>
@@ -88,7 +88,7 @@
 
 
                   <div class="product-info text-left">
-                    <h3 class="name"><%= link_to new_product.product_name, '#'%></h3>
+                    <h3 class="name"><%= link_to new_product.product_name, product_path(product: new_product.id)%></h3>
 
                     <% if new_product.sale_price %>
                       <div class="product-price">
@@ -153,7 +153,7 @@
                       <div class="product">
                         <div class="product-image">
                           <div class="image">
-                            <%= link_to '#' do%>
+                            <%= link_to product_path(product: fruit_vegetable.id) do%>
                               <%= image_tag fruit_vegetable.product_image.url(:thumb), alt: fruit_vegetable.product_name%>
                             <%end%>
                           </div><!-- /.image -->
@@ -165,7 +165,7 @@
 
 
                         <div class="product-info text-left">
-                          <h3 class="name"><%= link_to fruit_vegetable.product_name, '#' %></h3>
+                          <h3 class="name"><%= link_to fruit_vegetable.product_name, product_path(product: fruit_vegetable.id) %></h3>
                           <% if fruit_vegetable.sale_price %>
                             <div class="product-price">
                               <span class="price">
@@ -214,7 +214,7 @@
                       <div class="product">
                         <div class="product-image">
                           <div class="image">
-                            <%= link_to '#' do%>
+                            <%= link_to product_path(product: fruit_vegetable.id) do%>
                               <%= image_tag fruit_vegetable.product_image.url(:thumb), alt: fruit_vegetable.product_name%>
                             <%end%>
                           </div><!-- /.image -->
@@ -226,7 +226,7 @@
 
 
                         <div class="product-info text-left">
-                          <h3 class="name"><%= link_to fruit_vegetable.product_name, '#' %></h3>
+                          <h3 class="name"><%= link_to fruit_vegetable.product_name, product_path(product: fruit_vegetable.id) %></h3>
                           <% if fruit_vegetable.sale_price %>
                             <div class="product-price">
                               <span class="price">
@@ -274,7 +274,7 @@
                       <div class="product">
                         <div class="product-image">
                           <div class="image">
-                            <%= link_to '#' do%>
+                            <%= link_to product_path(product: fruit_vegetable.id) do%>
                               <%= image_tag fruit_vegetable.product_image.url(:thumb), alt: fruit_vegetable.product_name%>
                             <%end%>
                           </div><!-- /.image -->
@@ -286,7 +286,7 @@
 
 
                         <div class="product-info text-left">
-                          <h3 class="name"><%= link_to fruit_vegetable.product_name, '#' %></h3>
+                          <h3 class="name"><%= link_to fruit_vegetable.product_name, product_path(product: fruit_vegetable.id) %></h3>
                           <% if fruit_vegetable.sale_price %>
                             <div class="product-price">
                               <span class="price">
@@ -334,7 +334,7 @@
                       <div class="product">
                         <div class="product-image">
                           <div class="image">
-                            <%= link_to '#' do%>
+                            <%= link_to product_path(product: fruit_vegetable.id) do%>
                               <%= image_tag fruit_vegetable.product_image.url(:thumb), alt: fruit_vegetable.product_name%>
                             <%end%>
                           </div><!-- /.image -->
@@ -346,7 +346,7 @@
 
 
                         <div class="product-info text-left">
-                          <h3 class="name"><%= link_to fruit_vegetable.product_name, '#' %></h3>
+                          <h3 class="name"><%= link_to fruit_vegetable.product_name, product_path(product: fruit_vegetable.id) %></h3>
                           <% if fruit_vegetable.sale_price %>
                             <div class="product-price">
                               <span class="price">
@@ -442,9 +442,9 @@
                 <div class="product">
                   <div class="product-image">
                     <div class="image">
-                      <a href="detail.html">
+                      <%= link_to product_path(product: dairy_product.id) do%>
                         <%= image_tag dairy_product.product_image.url(:thumb), alt: dairy_product.product_name%>
-                      </a>
+                      <%end%>
                     </div><!-- /.image -->
                     <% if dairy_product.hotdeal == true %>
                       <div class="tag hot"><span>hot</span></div>
@@ -453,7 +453,7 @@
 
 
                   <div class="product-info text-left">
-                    <h3 class="name"><%= link_to dairy_product.product_name, '#'%></h3>
+                    <h3 class="name"><%= link_to dairy_product.product_name, product_path(product: dairy_product.id) %></h3>
 
                     <% if dairy_product.sale_price %>
                       <div class="product-price">
@@ -505,9 +505,9 @@
                 <div class="product">
                   <div class="product-image">
                     <div class="image">
-                      <a href="detail.html">
+                      <%= link_to product_path(product: pantry_product.id) do%>
                         <%= image_tag pantry_product.product_image.url(:thumb), alt: pantry_product.product_name%>
-                      </a>
+                      <%end%>
                     </div><!-- /.image -->
                     <% if pantry_product.hotdeal == true %>
                       <div class="tag hot"><span>hot</span></div>
@@ -516,7 +516,7 @@
 
 
                   <div class="product-info text-left">
-                    <h3 class="name"><%= link_to pantry_product.product_name, '#'%></h3>
+                    <h3 class="name"><%= link_to pantry_product.product_name, product_path(product: pantry_product.id)%></h3>
 
                     <% if pantry_product.sale_price %>
                       <div class="product-price">
@@ -559,6 +559,5 @@
       </section>
 
     </div><!-- /.homebanner-holder -->
-    <!-- ============================================== CONTENT : END ============================================== -->
   </div><!-- /.row -->
 </div>

@@ -41,6 +41,16 @@ class ApplicationController < ActionController::Base
     end
   end
 
+  #category page
+  def product
+    if params[:product]
+      @product = Product.find(params[:product])
+      @upsellProducts = Product.all.shuffle[0..10]
+    else
+      redirect_to root_url
+    end
+  end
+
   private
   def after_sign_in_path_for(resource)
     if resource.is_a?(SuperUser)

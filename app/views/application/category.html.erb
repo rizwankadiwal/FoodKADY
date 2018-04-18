@@ -51,7 +51,7 @@
                     <div class="product">
                       <div class="product-image">
                         <div class="image">
-                          <%= link_to '#' do%>
+                          <%= link_to product_path(product: product.id) do%>
                             <%= image_tag product.product_image.url(:thumb), alt: product.product_name%>
                           <%end%>
                         </div><!-- /.image -->
