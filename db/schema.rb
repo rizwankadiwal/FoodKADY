@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20180412191936) do
+ActiveRecord::Schema.define(version: 20180419063958) do
 
   create_table "banners", force: :cascade do |t|
     t.string "slideshow_banner_title"
@@ -86,6 +86,12 @@ ActiveRecord::Schema.define(version: 20180412191936) do
     t.datetime "product_image_updated_at"
     t.boolean "hotdeal"
     t.decimal "sale_price"
+  end
+
+  create_table "statuses", force: :cascade do |t|
+    t.string "name"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
   end
 
   create_table "super_users", force: :cascade do |t|
