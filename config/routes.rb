@@ -14,4 +14,12 @@ Rails.application.routes.draw do
   get 'category', to: 'application#category', as: 'category'
   get 'product', to: 'application#product', as: 'product'
   get 'search', to: 'search#search', as: 'search'
+
+  resources :shoppingcart, only: [:index] do
+    collection do
+      post :reload_quantity
+      post :delete_item
+    end
+  end
+
 end
