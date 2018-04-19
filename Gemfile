@@ -59,3 +59,7 @@ gem 'paperclip'
 gem 'acts_as_tree'
 gem 'devise'
 gem 'will_paginate'
+
+group :production do
+  gem 'pg'
+end
