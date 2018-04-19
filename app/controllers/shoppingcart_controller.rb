@@ -14,9 +14,10 @@ class ShoppingcartController < ApplicationController
     @cart.each do |prod|
       @prod_details =  Product.find(prod["id"])
       @full_prod_hash = {"id" => prod["id"],
-                         "name" => @prod_details.name,
-                         "description" => @prod_details.description,
+                         "name" => @prod_details.product_name,
                          "price" => @prod_details.price,
+                         "salePrice"=> @prod_details.sale_price,
+                         "productImage"=> @prod_details.product_image.url,
                          "quantity" => prod["quantity"],
                          "total" => @prod_details.price * prod["quantity"].to_i}
 
